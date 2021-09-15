@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">kotlin-assignment-eleven</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="password">password</string>
+    <string name="login">LOGIN</string>
+    <string name="register_here">register here</string>
+    <string name="don_t_have_an_account_yet">don\'t have an account yet?</string>
+    <string name="username">username</string>
+    <string name="register">REGISTER</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="email">email</string>
+    <string name="create_account">create account</string>
+    <string name="already_have_account">already have account?</string>
+</resources>
