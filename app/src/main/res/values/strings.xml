@@ -11,4 +11,46 @@
     <string name="email">email</string>
     <string name="create_account">create account</string>
     <string name="already_have_account">already have account?</string>
+    <string name="nama_agent">Nama Agent</string>
+    <string name="class_agent">Class Agent</string>
+
+    <integer-array name="data_img_agent">
+        <item>@drawable/fjett</item>
+        <item>@drawable/fraze</item>
+        <item>@drawable/fbrim</item>
+        <item>@drawable/fphoenix</item>
+        <item>@drawable/fsage</item>
+        <item>@drawable/fsova</item>
+        <item>@drawable/fcypher</item>
+        <item>@drawable/freyna</item>
+        <item>@drawable/fkilljoy</item>
+        <item>@drawable/fskye</item>
+    </integer-array>
+
+    <string-array name="data_agent_name">
+        <item>Jett</item>
+        <item>Raze</item>
+        <item>Brimstone</item>
+        <item>Phoenix</item>
+        <item>Sage</item>
+        <item>Sova</item>
+        <item>Cypher</item>
+        <item>Reyna</item>
+        <item>Killjoy</item>
+        <item>Skye</item>
+    </string-array>
+
+    <string-array name="data_agent_class">
+        <item>Duelist</item>
+        <item>Duelist</item>
+        <item>Controller</item>
+        <item>Duelist</item>
+        <item>Sentinels</item>
+        <item>Initiator</item>
+        <item>Sentinels</item>
+        <item>Duelist</item>
+        <item>Sentinels</item>
+        <item>Initiator</item>
+    </string-array>
+
 </resources>
