@@ -25,6 +25,12 @@
         <item>@drawable/freyna</item>
         <item>@drawable/fkilljoy</item>
         <item>@drawable/fskye</item>
+        <item>@drawable/fastra</item>
+        <item>@drawable/fyoru</item>
+        <item>@drawable/fkayo</item>
+        <item>@drawable/fbreach</item>
+        <item>@drawable/fomen</item>
+        <item>@drawable/fviper</item>
     </integer-array>
 
     <string-array name="data_agent_name">
@@ -38,6 +44,12 @@
         <item>Reyna</item>
         <item>Killjoy</item>
         <item>Skye</item>
+        <item>Astra</item>
+        <item>Yoru</item>
+        <item>Kay/O</item>
+        <item>Breach</item>
+        <item>Omen</item>
+        <item>Viper</item>
     </string-array>
 
     <string-array name="data_agent_class">
@@ -51,6 +63,12 @@
         <item>Duelist</item>
         <item>Sentinels</item>
         <item>Initiator</item>
+        <item>Controller</item>
+        <item>Duelist</item>
+        <item>Initiator</item>
+        <item>Initiator</item>
+        <item>Controller</item>
+        <item>Controller</item>
     </string-array>
 
 </resources>

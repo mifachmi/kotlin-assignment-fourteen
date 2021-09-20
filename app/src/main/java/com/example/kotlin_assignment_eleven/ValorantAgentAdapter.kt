@@ -1,7 +1,9 @@
 package com.example.kotlin_assignment_eleven
 
+import android.content.Intent
 import android.view.LayoutInflater
 import android.view.ViewGroup
+import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.bumptech.glide.request.RequestOptions
@@ -20,6 +22,15 @@ class ValorantAgentAdapter(private val listAgent: ArrayList<Agent>) : RecyclerVi
 
                 tvNamaAgent.text = agent.name
                 tvClassAgent.text = agent.classAgent
+                llRowItem.setOnClickListener {
+                    Toast.makeText(it.context, agent.name, Toast.LENGTH_SHORT).show()
+
+                    val intent = Intent(itemView.context, DetailAgentActivity::class.java)
+                    intent.putExtra("imageAgent", agent.photo)
+                    intent.putExtra("nameAgent", tvNamaAgent.text)
+                    intent.putExtra("classAgent", tvClassAgent.text)
+                    itemView.context.startActivity(intent)
+                }
             }
         }
     }
